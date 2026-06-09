@@ -1,0 +1,11 @@
+{
+  "name": "impromtu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "lite-server --baseDir=Frontend"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
