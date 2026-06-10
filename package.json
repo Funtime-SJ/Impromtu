@@ -1,0 +1,11 @@
+{
+  "name": "impromtu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --max-old-space-size=512 ./node_modules/.bin/lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "server": {
+    "baseDir": "Frontend"
+  },
+  "files": [
+    "Frontend/**/*.{html,css,js}"
+  ],
+  "watchOptions": {
+    "ignored": ["node_modules", ".git", "Backend"]
+  },
+  "injectChanges": true,
+  "notify": true,
+  "reloadOnRestart": true
+}
