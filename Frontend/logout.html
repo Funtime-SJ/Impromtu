@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4f7fb;
+      color: #1f2937;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 2rem 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+      text-align: center;
+      width: min(420px, 90vw);
+    }
+
+    .card h1 {
+      margin: 0 0 0.75rem;
+      font-size: 1.9rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      width: 100%;
+      padding: 0.95rem 1rem;
+      border: none;
+      border-radius: 12px;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    .status {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+  </style>
+  <script src="logout.js"></script>
+</head>
+<body>
+  <div class="card">
+    <h1>Sign Out</h1>
+    <p>Click below to log out and return to the login screen.</p>
+    <button id="logoutButton">Log Out</button>
+    <p class="status" id="statusText"></p>
+  </div>
+</body>
+</html>
